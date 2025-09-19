@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AT2 Written</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Playfair+Display:wght@700&family=Playfair+Display+SC&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    
+    <div class="nav">
+        <subtitle> <a href ="#conceptsection" class="button">Concept </a></subtitle>
+        <subtitle> <a href ="#visualssection" class="button">Visuals & Implementation</a></subtitle>
+        <subtitle> <a href ="#reflectionsection" class="button">Reflection</a></subtitle>
+    </div>
+
+    <div class="frontpage">
+        <h1>Poems Prototype</h1>
+
+    </div>
+
+     <p class="frontsubtitle">Arie<br>lle<br> Co<br>wham </p> 
+        <p class="frontsubtitle2">s4<br>123<br>316</p>
+
+    <section class="concept section" id="conceptsection">
+        <h2>Concept</h2>
+        <div class="content">
+            <div class="text">
+                <p class="conceptpara1">For my project, I decided to create an all-text interactive site in the form of a poem. Each line of the poem corresponds to a musical note. When a user clicks on a line, it drops down hits the bottom of the screen and triggers the corresponding note before going back up. Users can orchestrate the music by dragging each line horizontally to change the note’s octave or vertically to adjust tempo/ speed. Essentially, this allows the user to create their own simple musical composition.  </p>
+                <p class="conceptpara2">Additionally, users can expand the experience by adding new poem lines. When added, these lines will use Math.random() to generate a random poem line. Users can also delete poem lines to have better control over their composition. The background currently uses an image from Pinterest but with slight editing, the background will eventually be replaced in the final UI to better suit the project’s aesthetic. </p>
+                <p class="conceptpara3">The image above features my initial brainstorm which included the idea of my current project, though it has evolved further as I became more invested in the concept. </p>
+            </div>
+            <div class="image">
+                <img class="brainstorm" src="Brainstorm.png" alt="brainstorm">
+            </div>
+        </div>
+    </section>
+
+    <section class="visuals section" id="visualssection">
+        <h2>Visuals & Implementation</h2>
+        <div class="content">
+            <div class="text">
+                <p class="concept-para">The project will use a combination of HTML, CSS, and JavaScript to create the prototype and ultimately the final project. I needed to figure out how to make the poem line “interactive”, for this I had to figure out how to code the poem to be able to drop to the bottom of the screen when clicked, make a sound when it drops to the bottom, and go back up. I also needed to figure out how to make the poetry lines draggable across the screen. The UI for this is text focused but will need to give clear feedback to the user when interacted with.  </p>
+            </div>
+            <div class="image">
+                <img class="sketch" src="Sketch.png" alt="sketch">
+            </div>
+        </div>
+    </section>
+
+    <section class="reflection section" id="reflectionsection">
+        <h2>Reflection</h2>
+        <div class="reflection">
+           <p class="reflectionpara1">For the user testing, I provided them with three questions: how easy it was to understand what happens when a poem line is clicked, how the combination of audio and visuals impacted the experience, and whether anything was frustrating and if so, what could be improved. Feedback was mixed on understanding the interactions, some understood it easily, while others were unsure, highlighting that guidance was needed. To address this issue, I plan to add a popup if users don’t interact with the poems. </p>
+            <p class="reflectionpara2">Users had also suggested more note variations and more additional interactions, as well as mentioning some uncertainty about what to do after clicking. These were valid points and aligned with features I had planned to implement but hadn’t yet included in the prototype due to challenges with JavaScript. In hindsight, including more elements in the prototype could’ve allowed for stronger feedback and provided insight on issues I hadn’t considered. Many users also mentioned the prototype feeling incomplete or lacking elements, which was to be expected as I had kept it pretty minimal with the interactions. The placeholder text did also cause some confusion, so I should’ve replaced it with lorem ipsum instead. </p>
+            <p class="reflectionpara3">Overall, the feedback was constructive and confirmed areas that I needed to refine. It provided guidance and what I needed to do to improve usability and how to better the experience for the final version. </p>
+        </div>
+    </section>
+
+</body>
+</html>
